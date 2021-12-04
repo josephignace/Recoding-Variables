@@ -1,7 +1,6 @@
 #Library
 pacman::p_load(tidyverse, car)
 
-
 #Recoding NA to 0 to identify patients without diagnostic and/or medication
 CatVar <- c("AFDx", "STROKEDx", "DemDx", "DEMSUBDx", "CHADDx", #Disease
             "WARMed", "APIXMed", "DABMed", "RIVARMed", "EDOXMed", "ACENMed", "PHENMed", #AC
